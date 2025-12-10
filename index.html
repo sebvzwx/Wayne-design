@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wayne | Hybrid Creative</title>
+    <meta name="description" content="Wayne的作品集 - 融合设计美学与代码逻辑" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: '#000000',
+              surface: '#111111',
+              // Bold Clashing Colors
+              'neon-blue': '#2E5CFF',
+              'neon-pink': '#FF2E93',
+              'neon-lime': '#CCFF00',
+              'glass-border': 'rgba(255, 255, 255, 0.15)',
+            },
+            fontFamily: {
+              sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            borderRadius: {
+              '4xl': '2rem',
+              '5xl': '2.5rem',
+            },
+            animation: {
+              'float': 'float 6s ease-in-out infinite',
+              'float-delayed': 'float 6s ease-in-out 3s infinite',
+              'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'glow': 'glow 3s ease-in-out infinite',
+              'glow-delayed': 'glow 3s ease-in-out 1.5s infinite',
+              'scale-pulse': 'scale-pulse 4s ease-in-out infinite',
+              'breathe': 'breathe 4s ease-in-out infinite',
+              'breathe-opacity': 'breathe-opacity 5s ease-in-out infinite',
+              'breathe-scale': 'breathe-scale 6s ease-in-out infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-20px)' },
+              },
+              glow: {
+                '0%, 100%': { opacity: '0.6' },
+                '50%': { opacity: '0.8' },
+              },
+              'scale-pulse': {
+                '0%, 100%': { transform: 'scale(1)' },
+                '50%': { transform: 'scale(1.1)' },
+              },
+              breathe: {
+                '0%, 100%': { opacity: '0.3' },
+                '50%': { opacity: '0.7' },
+              },
+              'breathe-opacity': {
+                '0%, 100%': { opacity: '0.4' },
+                '50%': { opacity: '0.8' },
+              },
+              'breathe-scale': {
+                '0%, 100%': { transform: 'scale(1) scaleY(1)' },
+                '50%': { transform: 'scale(1.1) scaleY(1.05)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@500&display=swap');
+      
+      body {
+        background-color: #000000;
+        color: #ffffff;
+        font-family: 'Inter', sans-serif;
+        overflow-x: hidden;
+      }
+
+      /* Ultra Glass Effect */
+      .ios-glass {
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(24px);
+        -webkit-backdrop-filter: blur(24px);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+      }
+      
+      .ios-glass-dark {
+        background: rgba(10, 10, 10, 0.6);
+        backdrop-filter: blur(40px);
+        -webkit-backdrop-filter: blur(40px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      /* Highlight Text Selection */
+      ::selection {
+        background: #2E5CFF;
+        color: white;
+      }
+      
+      /* Smooth Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #000;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 99px;
+      }
+
+      /* Hero Section Background Breathing Effect */
+      #home {
+        position: relative;
+      }
+
+      #home::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(
+          ellipse 100% 100% at 50% 50%,
+          rgba(46, 92, 255, 0.15) 0%,
+          rgba(255, 46, 147, 0.1) 50%,
+          transparent 100%
+        );
+        animation: heroBreathe 6s ease-in-out infinite;
+        pointer-events: none;
+        z-index: 1;
+      }
+
+      @keyframes heroBreathe {
+        0%, 100% {
+          opacity: 0.3;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 0.7;
+          transform: scale(1.05);
+        }
+      }
+
+      #home .container {
+        position: relative;
+        z-index: 10;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
