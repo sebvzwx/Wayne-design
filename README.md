@@ -1,20 +1,261 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<h1>🎨 Wayne's Hybrid Creative Portfolio</h1>
+<p><strong>融合视觉美学与代码逻辑，构建极具未来感的数字体验</strong></p>
+
+![React](https://img.shields.io/badge/React-19.2.1-61dafb?style=flat-square&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178c6?style=flat-square&logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-6.2-646cff?style=flat-square&logo=vite)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-06b6d4?style=flat-square&logo=tailwindcss)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 📋 项目介绍
 
-View your app in AI Studio: https://ai.studio/apps/drive/1VhaLjJB3b02QfKQeoUzdbvRG0NDOxzxN
+**Wayne** 是一份现代化的个人作品集网站，展示 Web3 社区增长、AI 视觉艺术和全栈开发能力。项目采用最新的前端技术栈，提供沉浸式的视觉体验和流畅的交互动画。
 
-## Run Locally
+### 🎯 核心身份
 
-**Prerequisites:**  Node.js
+- **Web3 社区增长专家**：精通千人规模垂直社区运营，内容漏斗 + SOP 转化体系
+- **AI 视觉艺术家**：掌握 Figma、Midjourney 等工具的创意设计流程
+- **Full-Stack Operator**：具备前端开发、数据分析、自动化工作流能力
+
+---
+
+## ✨ 核心特性
+
+### 🎨 视觉设计
+- **现代极简风格**：黑色背景 + 霓虹配色（蓝/粉/绿）
+- **呼吸感动画**：背景渐变、网格纹理、浮动元素的有机运动
+- **玻璃态效果**：毛玻璃卡片、模糊背景、高级视觉层次
+- **平滑过渡**：页面间色彩协调的垂直渐变
+
+### ⚡ 交互体验
+- **流畅动画**：navbar 丝滑弹出、卡片 hover 效果、图标缩放
+- **响应式设计**：完美适配 sm / md / lg / xl 各个断点
+- **移动优先**：精心优化的移动端交互和排版
+
+### 🛠️ 技术栈
+- **前端框架**：React 19 + TypeScript
+- **构建工具**：Vite 6（秒级热更新）
+- **样式方案**：Tailwind CSS（原子化设计）
+- **图标库**：Lucide React（450+ 精美图标）
+
+---
+
+## 📁 项目结构
+
+```
+wayne-design/
+├── components/              # React 组件
+│   ├── Hero.tsx            # 英雄Section（首屏）
+│   ├── About.tsx           # 关于我 + 技术栈
+│   ├── Portfolio.tsx       # 精选作品展示
+│   ├── Services.tsx        # 核心能力卡片
+│   ├── Navbar.tsx          # 导航栏
+│   └── Footer.tsx          # 页脚联系信息
+├── constants.ts            # 数据常量（技能/项目/服务）
+├── types.ts                # TypeScript 类型定义
+├── App.tsx                 # 根组件
+├── index.tsx               # 应用入口
+├── index.html              # HTML 模板 + Tailwind 配置
+├── vite.config.ts          # Vite 配置
+├── tsconfig.json           # TypeScript 配置
+├── package.json            # 依赖管理
+└── README.md               # 项目文档
+```
+
+---
+
+## 🎯 页面功能
+
+### 🏠 Hero（首屏）
+- 大气的欢迎标题：「HYBRID CREATIVE」
+- 霓虹蓝色高亮 + 呼吸感动画
+- 对称分布的渐变线条装饰
+- 「Available for Hire」状态指示
+- 快捷导航按钮（查看作品 / 建立联系）
+
+### 👤 About（关于我）
+- 个人品牌陈述
+- **4维技术栈体系**：
+  - Community Ops / Growth（95%）- 社区增长运营
+  - AI Visual & UI Design（90%）- 视觉设计
+  - Data Analysis & Python（85%）- 数据分析
+  - Web3 Research & Content（88%）- Web3 研究
+- 彩色分割线设计，动态发光效果
+
+### 🎬 Portfolio（精选作品）
+- 3 个代表项目展示
+- 卡片悬停放大动画
+- 标签分类、项目描述
+- 响应式 1-2-3 列网格布局
+
+### 💪 Services（核心能力）
+- **0-1 Community Growth**：千人社区搭建、内容漏斗
+- **AI-Powered Design**：AI 生成 + 精细优化工作流
+- **Data-Driven Strategy**：数据分析、白皮书解读
+- 彩色图标 + 详细描述
+
+### 📬 Footer（页脚）
+- 联系信息（邮箱 + Telegram）
+- 社交媒体链接
+- 版权信息
+
+---
+
+## 🚀 快速开始
+
+### 前置要求
+- Node.js >= 18.0.0
+- npm >= 8.0.0
+
+### 安装依赖
+
+```bash
+npm install
+```
+
+### 本地开发
+
+```bash
+npm run dev
+```
+
+访问 `http://localhost:3000` 查看网站
+
+### 生产构建
+
+```bash
+npm run build
+```
+
+### 预览构建结果
+
+```bash
+npm run preview
+```
+
+---
+
+## 🎨 设计系统
+
+### 色彩板
+
+| 颜色 | Hex | 用途 |
+|------|-----|------|
+| Neon Blue | #2E5CFF | 主色调、高亮文本 |
+| Neon Pink | #FF2E93 | 重点强调、渐变辅色 |
+| Neon Lime | #CCFF00 | 按钮、状态指示 |
+| Background | #000000 | 页面背景 |
+| Surface | #111111 | 卡片容器 |
+
+### 动画库
+
+- `breathe` - 4s 呼吸感渐变
+- `breathe-opacity` - 5s 透明度浮动
+- `breathe-scale` - 6s 缩放呼吸
+- `float` - 6s 浮动上下
+- `pulse-fast` - 1.5s 快速闪烁
+
+### 排版
+
+- **字体**：Inter（无衬线现代字体）
+- **标题**：font-black（900 weight）
+- **正文**：font-medium（500 weight）
+- **等宽**：JetBrains Mono
+
+---
+
+## 📦 主要依赖
+
+```json
+{
+  "dependencies": {
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "lucide-react": "^0.556.0"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "@types/node": "^22.14.0"
+  }
+}
+```
+
+---
+
+## 🔧 配置说明
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 玻璃态效果
+
+通过 `ios-glass` 类实现高级玻璃效果：
+
+```css
+.ios-glass {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+```
+
+
+## 📱 响应式断点
+
+| 断点 | 宽度 | 设备 |
+|------|------|------|
+| `sm` | 640px | 小型平板 |
+| `md` | 768px | 中型平板 |
+| `lg` | 1024px | 桌面 |
+| `xl` | 1280px | 宽屏桌面 |
+
+---
+
+## 🚀 部署建议
+
+### Vercel（推荐）
+
+```bash
+# 一键部署
+vercel
+```
+
+
+## 📝 Git 提交规范
+
+```
+feat:    新功能
+fix:     bug 修复
+docs:    文档更新
+style:   代码风格
+refactor: 代码重构
+chore:   杂务更新
+perf:    性能优化
+```
+
+
+## 📧 联系方式
+
+- **邮箱**：485198841@qq.com
+- **Telegram**：@zengwayne
+- **GitHub**：[sebvzwx](https://github.com/sebvzwx)
+
+---
+
+## 📄 许可证
+
+MIT License © 2025 Wayne. 保留所有权利。
+
+---
+
+<div align="center">
+
+**Designed & Built with ❤️ in Guangdong, China**
+
+⭐ 如果项目对你有帮助，请考虑给一个 Star！
+
+</div>
