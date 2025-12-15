@@ -12,7 +12,7 @@ export const PROJECTS: Project[] = [
     id: '1',
     title: 'SIMAN JOB - Web3平台运营',
     description: 'Web3 的运营到底在做什么？通过分享运营的核心竞争力，帮助新人快速破局入行。免费 Web3 & AI 实习岗位与培训指导。',
-    imageUrl: '/images/image 9.png',
+    imageUrl: 'https://res.cloudinary.com/diar08qd4/image/upload/v1765808051/image_9_ncqpuw.png',
     tags: ['Web3', 'Community', 'Growth'],
     category: 'Web3 Community'
   },
@@ -20,7 +20,7 @@ export const PROJECTS: Project[] = [
     id: '2',
     title: '招募海报设计',
     description: '通过智能匹配与学习，为 AI 创业者找到理想的联合创始人。致力于构建智能匹配工作平台，机会无限。',
-    imageUrl: '/images/image 10.png',
+    imageUrl: 'https://res.cloudinary.com/diar08qd4/image/upload/v1765808050/image_10_xifdvq.png',
     tags: ['AI', 'Startup', 'Matching'],
     category: 'AI Platform'
   },
@@ -28,7 +28,7 @@ export const PROJECTS: Project[] = [
     id: '3',
     title: 'SIMAN LABS 合作伙伴宣传图',
     description: '与 OKIE Finance 达成战略合作，推动 Web3 生态创新。SIMAN LABS 致力于赋能 AI 和区块链的融合应用。',
-    imageUrl: '/images/image 5.png',
+    imageUrl: 'https://res.cloudinary.com/diar08qd4/image/upload/v1765808049/image_5_pecbgt.png',
     tags: ['Partnership', 'Web3', 'Finance'],
     category: 'Strategic Alliance'
   },
@@ -36,7 +36,7 @@ export const PROJECTS: Project[] = [
     id: '4',
     title: '行业分享会物料设计',
     description: '',
-    imageUrl: '/images/image 8.png',
+    imageUrl: 'https://res.cloudinary.com/diar08qd4/image/upload/v1765808053/image_8_ckgh7t.png',
     tags: ['Content', 'Community'],
     category: 'Content Platform'
   },
@@ -44,7 +44,7 @@ export const PROJECTS: Project[] = [
     id: '5',
     title: 'Sovo AI助听器UI设计',
     description: '智能语音处理与助听器的创新应用。结合 AI 自主匹配、降噪处理、多设备支持，提供沉浸式交互体验。',
-    imageUrl: '/images/Frame 141.png',
+    imageUrl: 'https://res.cloudinary.com/diar08qd4/image/upload/v1765808047/Frame_141_vmpyr2.png',
     tags: ['Audio', 'AI', 'Social'],
     category: 'AI Platform'
   },
@@ -52,7 +52,7 @@ export const PROJECTS: Project[] = [
     id: '6',
     title: 'AI学习助手小程序UI设计',
     description: '',
-    imageUrl: '/images/Frame 142.png',
+    imageUrl: 'https://res.cloudinary.com/diar08qd4/image/upload/v1765808047/Frame_142_n8e2zt.png',
     tags: ['Education'],
     category: 'EdTech'
   },
@@ -60,7 +60,7 @@ export const PROJECTS: Project[] = [
     id: '7',
     title: '个人网站UI设计',
     description: '',
-    imageUrl: '/images/All.png',
+    imageUrl: 'https://res.cloudinary.com/diar08qd4/image/upload/v1765808047/All_zyubgw.png',
     tags: ['Design', 'React', 'Tailwind'],
     category: 'Personal Project'
   },

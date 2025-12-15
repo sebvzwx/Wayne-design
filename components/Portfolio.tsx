@@ -33,6 +33,7 @@ const Portfolio: React.FC = () => {
                     src={project.imageUrl} 
                     alt={project.title} 
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    loading="lazy"
                   />
                   
                   <div className="absolute inset-0 bg-gradient-to-b from-black/0 via-black/20 to-black/90 opacity-80 group-hover:opacity-90 transition-opacity"></div>
@@ -87,6 +88,7 @@ const Portfolio: React.FC = () => {
               src={selectedImage} 
               alt="Expanded view" 
               className="max-w-full max-h-[90vh] object-contain rounded-2xl shadow-2xl"
+              loading="lazy"
             />
           </div>
         </div>
