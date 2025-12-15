@@ -37,6 +37,8 @@
               'breathe': 'breathe 4s ease-in-out infinite',
               'breathe-opacity': 'breathe-opacity 5s ease-in-out infinite',
               'breathe-scale': 'breathe-scale 6s ease-in-out infinite',
+              'fadeIn': 'fadeIn 0.3s ease-in-out',
+              'zoomIn': 'zoomIn 0.4s ease-out',
             },
             keyframes: {
               float: {
@@ -62,6 +64,14 @@
               'breathe-scale': {
                 '0%, 100%': { transform: 'scale(1) scaleY(1)' },
                 '50%': { transform: 'scale(1.1) scaleY(1.05)' },
+              },
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              zoomIn: {
+                '0%': { transform: 'scale(0.95)', opacity: '0' },
+                '100%': { transform: 'scale(1)', opacity: '1' },
               }
             }
           }

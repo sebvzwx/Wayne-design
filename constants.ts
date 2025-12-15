@@ -10,24 +10,59 @@ export const SKILLS: Skill[] = [
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'Project Alpha: 个人全栈作品集',
-    description: '一个融合了视觉设计与技术实现的个人全栈展示平台。不仅展示了作品，更体现了“设计即代码”的构建哲学。',
-    imageUrl: 'https://placehold.co/600x400/111/CCFF00?text=Alpha',
-    tags: ['Design', 'React', 'Tailwind'],
+    title: 'SIMAN JOB - Web3平台运营',
+    description: 'Web3 的运营到底在做什么？通过分享运营的核心竞争力，帮助新人快速破局入行。免费 Web3 & AI 实习岗位与培训指导。',
+    imageUrl: '/images/image 9.png',
+    tags: ['Web3', 'Community', 'Growth'],
+    category: 'Web3 Community'
   },
   {
     id: '2',
-    title: 'Project Beta: 电商自动化工具',
-    description: '基于 Python 和 Pillow 库构建的图像批处理工具，为电商平台的大规模素材处理提供高效的自动化工作流。',
-    imageUrl: 'https://placehold.co/600x400/111/CCFF00?text=Beta',
-    tags: ['Python', 'Automation', 'Pillow'],
+    title: '招募海报设计',
+    description: '通过智能匹配与学习，为 AI 创业者找到理想的联合创始人。致力于构建智能匹配工作平台，机会无限。',
+    imageUrl: '/images/image 10.png',
+    tags: ['AI', 'Startup', 'Matching'],
+    category: 'AI Platform'
   },
   {
     id: '3',
-    title: 'Project Gamma: 品牌视觉识别系统',
-    description: '为一家 Web3 科技初创公司打造的完整 VI 系统，包含动态 Logo、版式规范及跨平台应用指南。',
-    imageUrl: 'https://placehold.co/600x400/111/CCFF00?text=Gamma',
-    tags: ['VI Design', 'Figma', 'Branding'],
+    title: 'SIMAN LABS 合作伙伴宣传图',
+    description: '与 OKIE Finance 达成战略合作，推动 Web3 生态创新。SIMAN LABS 致力于赋能 AI 和区块链的融合应用。',
+    imageUrl: '/images/image 5.png',
+    tags: ['Partnership', 'Web3', 'Finance'],
+    category: 'Strategic Alliance'
+  },
+  {
+    id: '4',
+    title: '行业分享会物料设计',
+    description: '',
+    imageUrl: '/images/image 8.png',
+    tags: ['Content', 'Community'],
+    category: 'Content Platform'
+  },
+  {
+    id: '5',
+    title: 'Sovo AI助听器UI设计',
+    description: '智能语音处理与助听器的创新应用。结合 AI 自主匹配、降噪处理、多设备支持，提供沉浸式交互体验。',
+    imageUrl: '/images/Frame 141.png',
+    tags: ['Audio', 'AI', 'Social'],
+    category: 'AI Platform'
+  },
+  {
+    id: '6',
+    title: 'AI学习助手小程序UI设计',
+    description: '',
+    imageUrl: '/images/Frame 142.png',
+    tags: ['Education'],
+    category: 'EdTech'
+  },
+  {
+    id: '7',
+    title: '个人网站UI设计',
+    description: '',
+    imageUrl: '/images/All.png',
+    tags: ['Design', 'React', 'Tailwind'],
+    category: 'Personal Project'
   },
 ];
 
